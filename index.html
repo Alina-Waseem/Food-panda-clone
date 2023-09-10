@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Grocery Delivery - Restaurants near me in Pakistan | foodpanda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="head" class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="logo.PNG" alt="image" style="width: 200px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button id="Login" class="btn btn-outline-secondary me-2" type="submit"><a style="text-decoration: none; color: #E21B70;" href="login.html"> Log in</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="Signup" class="btn btn-outline-success me-2" type="submit"><a style="text-decoration: none; color: white" href="login.html">Sign up</a></button>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i> EN
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">English <i class="fa-regular fa-circle-check" style="color: #e21b70;"></i></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: #E21B70;" class="nav-link disabled" aria-disabled="true"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div style="position: relative; margin-top: 5%;">
+            <img src="Capture.PNG" class="img-fluid" alt="...">
+            <div id="inner" style="position: absolute; top: 50%; left: 5%; transform: translate(0, -50%);">
+                <h1 style="width: 70%;">It's the food and groceries you love, delivered</h1><br>
+                <div class="address">
+                    <input type="text" placeholder="Enter your full address" style="padding: 10px; border-radius: 8px; border-width: 1px; border-color: rgb(216, 216, 216); width: 50%; align-content: center; font-size: large;">
+                    <button type="submit" style="padding: 10px; border-radius: 8px; border-width: 0px;  background-color: #E21B70; border-color:#E21B70; align-content: center; font-size: large;"><a href="https://www.google.com/maps/@24.9141617,67.082216,15z?entry=ttu" target="_blank" style="color: white; text-decoration: none;">Find food</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <section>
+    <h2 style="margin-left: 5%;">You prepare the food, we handle the rest</h2><br>
+    <div>
+        <img src="chef.PNG" class="img-fluid" alt="...">
+    </div>
+    <div id="box">
+        <h3>List your restaurant or shop on foodpanda</h3><br>
+        <p>Would you like millions of new customers to enjoy your amazing food and groceries? So would we!</p>
+        <p>It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
+        <p>Interested? Let's start our partnership today!</p>
+        <button style="padding: 10px; border-radius: 8px; border-width: 0px; color: white; background-color: #E21B70; border-color:#E21B70; align-content: center; font-size: large;"><a href="getstarted1.html" style="text-decoration: none; color: white;">Get started</a></button>
+    </div>
+    </section>
+    <section>
+    <div>
+        <h3 style="margin-left: 5%;">Find us in these cities and many more!</h3><br>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Islamabad.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Islamabad</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Karachi.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Karachi</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Lahore.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Lahore</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Faisalabad.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Faisalabad</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Rawalpindi.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Rawalpindi</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Abottabad.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Abottabad</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Bahawalpur.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 120px;">Bahawalpur</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="DeraGhaziKhan.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 150px;">DeraGhaziKhan</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Gujranwala.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Gujranwala</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Gujrat.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Gujrat</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Hyderabad.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Hyderabad</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Jhelum.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Jhelum</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Kamoke.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Kamoke</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Larkana.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Larkana</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Mangla.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Mangla</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Mardan.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Mardan</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Multan.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Multan</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Murree.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Murree</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Okara.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Okara</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="PanoAqil.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">PanoAqil</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Peshawar.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Peshawar</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Quetta.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Quetta</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="RahimYarKhan.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 150px;">RahimYarKhan</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Sadiqabad.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Sadiqabad</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Sahiwal.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Sahiwal</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Sargodha.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Sargodha</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Sheikhupura.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 120px;">Sheikhupura</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Sialkot.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Sialkot</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="padding: 30px;">
+        <div class="col">
+          <div class="card">
+            <img src="Sukkur.jpg" class="card-img-top" alt="..." >
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 100px;">Sukkur</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="WahhCannt.jpg" class="card-img-top" alt="...">
+            <button style="padding: 10px; border-radius: 8px; border-color: white; border-width: 1px; width: 110px;">WahhCannt</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+        <img src="Pocket.PNG" class="img-fluid" alt="...">
+    </div>
+    <section >
+        <h2 style="margin-left: 5%;">Take your office out to lunch</h2><br>
+        <div>
+            <img src="Office.PNG" class="img-fluid" alt="...">
+        </div>
+        <div id="box">
+            <h3>foodpanda for business</h3><br>
+            <p>Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and much more.</p>
+            <button style="padding: 10px; border-radius: 8px; border-width: 1px;  background-color: #E21B70; border-color:#E21B70; align-content: center; font-size: large;"><a href="started2.html" style="text-decoration: none; color: white;"> Get started</a></button>
+        </div>
+        </section>
+        <section style="background-color: #f7f7f7;">
+        <br><br><br>
+        <div style="margin-left: 5%;">
+        <h2 >Order food and groceries online from the best restaurants and shops on foodpanda</h2>
+        <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your every day easier.</p>
+        <h2>What's new?</h2>
+        <p>✓ Wide variety of restaurants and shops, an abundance of cuisines & products.</p>
+        <p>✓ High quality delivery service.</p>
+        <p>✓ Live chat feature to give App users instant help when they need it.</p>
+        <p>✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.</p><hr>
+        <h3>Frequently Asked Questions</h3>
+        <h4>How can I get foodpanda delivery?</h4>
+        <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, browse through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!</p>
+        <h4>Which takeout restaurants open now near me?</h4>
+        <p>You can check which takeout restaurants are open now near you by simply typing your address in the location bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area.</p>
+        <h4>Does foodpanda deliver 24 hours?</h4>
+        <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart.</p>
+        <h4>Can you pay cash for foodpanda?</h4>
+        <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+        <h4>How can I pay foodpanda online?</h4>
+        <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+        <h4>Can I order foodpanda for someone else?</h4>
+        <p>Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund.</p>
+        <h4>How much does foodpanda charge for delivery?</h4>
+        <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+        <h4>What restaurants let you order online?</h4>
+        <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.</p>
+        <h4>Does foodpanda have minimum order?</h4>
+        <p>Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you order from and is indicated during your ordering process.</p>
+        <h4>What is the difference between delivery and Pick-Up?</h4>
+        <p>If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for extra savings – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.</p>
+        <h5>Order food and groceries online with foodpanda now and enjoy a great dining experience!</h5>
+        <br><br><br><br><br><hr>
+        <div >
+          <br>
+            <h3 style="color: rgb(207, 207, 207); display: inline;">foodpanda</h3>
+            <a href="https://www.facebook.com/foodpanda.pk/" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #9b9da1; margin-left: 80%;"></i></a>
+            <a href="https://www.instagram.com/foodpanda_pakistan/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #888d96;"></i></a>
+            <br><br>
+        </div>
+        <hr>
+        <div class="footer">
+          <div class="footer-column">
+              <div class="footer-heading">© 2023 foodpanda</div>
+          </div>
+          <div class="footer-column">
+              <a href="#" class="footer-link">Press Help Center</a>
+              <a href="#" class="footer-link">Refunds with pandapay</a>
+              <a href="#" class="footer-link">Pandapay User Account Terms and Condition</a>
+              <a href="#" class="footer-link">Term and conditions Privacy policy</a>
+              <a href="#" class="footer-link">Security Download Food panda apps</a>
+
+          </div>
+          <div class="footer-column">
+              <a href="#" class="footer-link">Careers Suggest a restaurant</a>
+              <a href="#" class="footer-link">Corporate Customer</a>
+              <a href="#" class="footer-link">Cashback Terms and Condition</a>
+              <a href="#" class="footer-link">All cuisines foodpanda Magazine</a>
+              <a href="#" class="footer-link">Partner with us</a>
+              <a href="#" class="footer-link">Pandago - Request a rider</a>
+              <a href="#" class="footer-link">foodpanda Voucher & Promo</a>
+          </div>
+          <div class="footer-column">
+              <a href="#" class="footer-link">All cities</a>
+              <a href="#" class="footer-link">Update on COVID-19 in Pakistan</a>
+              <a href="#" class="footer-link">pandamart Grocery Delivery</a>
+              <a href="#" class="footer-link">Pandapro - monthly subscription programme</a>
+              <a href="#" class="footer-link">foodpanda home chef</a>
+              <a href="#" class="footer-link">Become an affiliate Ramzan deals</a>
+          </div>
+      </div>
+        <hr>
+        <br>
+        <div class="country-list">
+          <a href="#"  style="text-decoration: none; color: #888d96;">Laos</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96; ">Cambodia</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Maynmar</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Thailand</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Hongkong</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Taiwan</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Malaysia</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Philippine</a>
+          <span>|</span>       
+          <a href="#"  style="text-decoration: none; color: #888d96;">Singapore</a>
+          <span>|</span>
+          <a href="#"  style="text-decoration: none; color: #888d96;">Bangladesh</a>
+        </div><br><br><br>
+    </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
